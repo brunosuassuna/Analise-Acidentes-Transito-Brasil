@@ -102,6 +102,11 @@ Com base nas análises realizadas, algumas conclusões importantes foram extraí
 
 Este repositório está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
+## ✉️ Contato
+- **Email:** brunosuassuna.dev@gmail.com
+- **LinkedIn:** www.linkedin.com/in/brunosuassuna
+
+
 ---
 
 **Nota**: Se você tiver alguma dúvida ou sugestão, fique à vontade para abrir um issue ou enviar uma pull request.
