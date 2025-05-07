@@ -1,28 +1,44 @@
-# 🚦 Análise de Acidentes de Trânsito no Brasil
+# 🚦 Acidentes de Trânsito no Brasil (2025) - Análise de Dados
 
-Este repositório contém uma análise detalhada sobre acidentes de trânsito no Brasil. O objetivo é entender os padrões e tendências relacionadas aos acidentes de trânsito, explorar os dados, gerar visualizações e fornecer insights que possam ser usados para melhorar a segurança viária no país.
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status">
+</div>
 
----
+## 📌 Visão Geral
 
-## 📝 Sumário
+Análise completa dos acidentes de trânsito ocorridos no Brasil em 2025, incluindo:
 
-- [📌 Objetivo](#-objetivo)
-- [📊 Dados Utilizados](#-dados-utilizados)
-- [🔍 Metodologia](#-metodologia)
-- [📉 Análises Realizadas](#-análises-realizadas)
-  - [📅 Tendências de Acidentes](#-tendências-de-acidentes)
-  - [🛣️ Causas de Acidentes](#-causas-de-acidentes)
-  - [🗺️ Distribuição Regional de Acidentes](#-distribuição-regional-de-acidentes)
-  - [🚗 Análise de Fatores Contribuintes](#-análise-de-fatores-contribuintes)
-- [📈 Resultados e Visualizações](#-resultados-e-visualizações)
-- [📅 Conclusões e Recomendações](#-conclusões-e-recomendações)
-- [🔗 Licença](#-licença)
+- Processamento de dados brutos
+- Visualizações interativas
+- Modelos preditivos
+- Identificação de padrões críticos
+- Recomendações para prevenção
 
----
-
-## 📌 Objetivo
+## 🎯 Objetivo
 
 O objetivo deste notebook é analisar os acidentes de trânsito ocorridos no Brasil, com base em um conjunto de dados disponíveis publicamente. As análises buscam identificar padrões relacionados à frequência de acidentes, suas causas e os fatores regionais e temporais que influenciam esses eventos.
+
+## 📂 Estrutura do Repositório
+```bash
+acidentes-transito-2025/
+├── data/
+│ ├── raw/ # Dados brutos originais
+│ ├── processed/ # Dados tratados
+│ └── outputs/ # Arquivos gerados
+├── notebooks/
+│ ├── EDA_2025.ipynb # Análise exploratória
+│ └── Modelagem.ipynb # Desenvolvimento de modelos
+├── src/
+│ ├── data_processing.py # Scripts de processamento
+│ └── visualization.py # Funções de visualização
+├── reports/
+│ ├── figures/ # Gráficos e imagens
+│ └── resultados.pdf # Relatório completo
+├── requirements.txt # Dependências
+└── README.md # Este arquivo
+```
 
 ---
 
@@ -40,6 +56,7 @@ Os dados utilizados nesta análise foram obtidos a partir do [Fonte dos Dados - 
 O conjunto de dados foi limpo, transformado e preparado para análise.
 
 ---
+
 
 ## 🔍 Metodologia
 
@@ -79,7 +96,6 @@ Durante a análise, várias visualizações foram geradas para ajudar na compree
 - Gráficos de linhas e barras para mostrar as tendências de acidentes ao longo do tempo.
 - Mapas de calor para visualizar a concentração de acidentes nas diferentes regiões do Brasil.
 - Diagramas de dispersão para explorar as relações entre variáveis como velocidade e gravidade dos acidentes.
-
 
 ---
 
