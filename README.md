@@ -20,26 +20,6 @@ Análise completa dos acidentes de trânsito ocorridos no Brasil em 2025, inclui
 
 O objetivo deste notebook é analisar os acidentes de trânsito ocorridos no Brasil, com base em um conjunto de dados disponíveis publicamente. As análises buscam identificar padrões relacionados à frequência de acidentes, suas causas e os fatores regionais e temporais que influenciam esses eventos.
 
-## 📂 Estrutura do Repositório
-```bash
-acidentes-transito-2025/
-├── data/
-│ ├── raw/ # Dados brutos originais
-│ ├── processed/ # Dados tratados
-│ └── outputs/ # Arquivos gerados
-├── notebooks/
-│ ├── EDA_2025.ipynb # Análise exploratória
-│ └── Modelagem.ipynb # Desenvolvimento de modelos
-├── src/
-│ ├── data_processing.py # Scripts de processamento
-│ └── visualization.py # Funções de visualização
-├── reports/
-│ ├── figures/ # Gráficos e imagens
-│ └── resultados.pdf # Relatório completo
-├── requirements.txt # Dependências
-└── README.md # Este arquivo
-```
-
 ---
 
 ## 📊 Dados Utilizados
